@@ -22,18 +22,18 @@
 # Project organization
 	There are 3 main part of the project. They are AppDetectLicense, android-yolo-v2 and core python scripts.
 
-	## Core Python scripts:
+	 Core Python scripts:
 		lib_detection.py is the heart of project. It prepares image preprocessing function, license plate segmentation function and also function for calling the model.
 		In detection.py, we bring the lib_detection.py to practice. This python script will return an image of license segmentation with standard format for two type of 			license plates which are common is Korea. Usage: python dectection.py [Path to image]
 		With image segmentation, it will be the input for pytesseract.py which return a result of characters and digits on a plate.
 		Moreover, we build some python scripts  for synthesizing purpose when deploying an application for end users.
 
-	## AppDetectLicense:
+	AppDetectLicense:
 		This application is actualization bunch of theses above. This step was facing to some challenges. Some of them are processing speed, quality of images or videos, 			etc…,
 		To solve the problem, we split application into 2 parts which make application run smoothly.
 		Usage: Running file detect.exe before running file showvideo.exe for importing your video or turning on camera.
 
-	## Android-yolo-v2:
+	Android-yolo-v2:
 		For purpose of deploying on mobile, we need to change the model because of low computation of mobile devices. Therefore, YOLO is the most potential candidate 			which match up all requirement of the project.
 		Especially, Yolo-v2-tiny is properly available on most of mobile devices.
 		For usage of this part, you’ll  need android studio set up on your computer to deploy on your device when connection is done between these two devices.
