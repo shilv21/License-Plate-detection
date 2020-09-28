@@ -4,15 +4,11 @@
 Several traffic-related applications , such as detection of stolen vehicles, toll control and parking lot access validation involve indentification, whichh is performed 	by Automatic Licencse Plate Recognition (ALPR) systems. Therefore , in this work, we propose a complete ALPR system which could meet some requirement for deploying a ALPR system.
 
 # How it work
-graph LR
-A[Input video] -- Feed into --> B((WPOD-NET))
-B-->C{License Plate}
-C-->D(Image Processing)
-D-->E((Tesseract))
-E-->F[Text]
+
 **Model**:  In order to deploy the project to an mobile device, WPOD-NET model is the best choice which should be small enough yet still maintains its effectiveness. The WPOD-NET was developed using insights from YOLO, SSD and Spatial Transformer Networks (STN).
 
 **Network Architecture**: The proposed architecture has a total of 21 convolutional layers, where 14 are inside residual blocks [8]. The size of all convolutional filters is fixed in 3 × 3. ReLU activations are used throughout the entire network, except in the detection block. There are 4 max pooling layers of size 2 × 2 and stride 2 that reduces the input dimensionality by a factor of 16. Finally, the detection block has two parallel convolutional layers.
+
 ![Detailed WPOD-NET architecture.](https://www.researchgate.net/profile/Claudio_Jung/publication/327861610/figure/fig3/AS:684600871366658@1540232975469/Detailed-WPOD-NET-architecture.png)
 
 **OCR**: Tesseract could handle this task well. So we did not train a new model for this task.
