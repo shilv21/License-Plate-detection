@@ -34,7 +34,7 @@ There are 3 main part of the project. They are AppDetectLicense, android-yolo-v2
 
  ### Core Python scripts:
 **lib_detection.py** is the heart of project. It prepares image preprocessing function, license plate segmentation function and also function for calling the model.
-In detection.py, we bring the **lib_detection.py** to practice. This python script will return an image of license segmentation with standard format for two type of
+In **detection.py**, we bring the **lib_detection.py** to practice. This python script will return an image of license segmentation with standard format for two type of
 license plates which are common is Korea. Usage: **python dectection.py** 
 With image segmentation, it will be the input for **pytesseract.py** which return a result of characters and digits on a plate.
 Moreover, we build some python scripts  for synthesizing purpose when deploying an application for end users.
