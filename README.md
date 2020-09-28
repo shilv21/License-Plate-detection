@@ -50,7 +50,7 @@ For purpose of deploying on mobile, we need to change the model because of low c
 Especially, **Yolo-v2-tiny** is properly available on most of mobile devices.
 For usage of this part, you’ll  need android studio set up on your computer to deploy on your device when connection is done between these two devices.
 # Output samples:
- ![alt text](https://github.com/shilv21/License-Plate-detection/blob/master/image1.png)
- ![alt text](https://github.com/shilv21/License-Plate-detection/blob/master/image2.jpeg)
+ ![alt text](https://github.com/shilv21/License-Plate-detection/blob/master/Images/image1.png)
+ ![alt text](https://github.com/shilv21/License-Plate-detection/blob/master/Images/image2.jpeg)
 
 # For more samples, please visit the demo.mp4.
