@@ -1,7 +1,7 @@
 # License Plate detection
  This project aims at developing methodology able to detect license plate and extract information at high speed processing.
 # Introduction
-Several traffic-related applications , such as detection of stolen vehicles, toll control and parking lot access validation involve indentification, whichh is performed 	by Automatic Licencse Plate Recognition (ALPR) systems. Therefore , in this work, we propose a complete ALPR system which could meet some requirement for deploying a ALPR system.
+Several traffic-related applications , such as detection of stolen vehicles, toll control and parking lot access validation involve indentification, which is performed 	by Automatic Licencse Plate Recognition (ALPR) systems. Therefore , in this work, we propose a complete ALPR system which could meet some requirement for deploying a ALPR system.
 
 # How it work
 ![alt text](https://github.com/shilv21/License-Plate-detection/blob/master/Images/Process.png)
